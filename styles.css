@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header,.main{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    padding: 18px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0 35px;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 200px;
+}
+
+#poster{
+    height: 250px;
+    width: 800px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.info h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.info p, .card p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn{
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.information h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cards img{
+    height: auto;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.quote q{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote span{
+    display: block;
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    margin: 40px 200px;
+    border-radius: 10px;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.text .first-line{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text .second-line{
+    font-weight: 18px;
+}
+
+.call-to-action .btn{
+    border: 2px solid #F9FAF8;
+}
