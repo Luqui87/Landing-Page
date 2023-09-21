@@ -158,3 +158,11 @@ a{
 .call-to-action .btn{
     border: 2px solid #F9FAF8;
 }
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+}
